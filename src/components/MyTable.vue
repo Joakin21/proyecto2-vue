@@ -1,10 +1,7 @@
 <template>
   
   <div>
-    <h3 class="mb-3 text-center">{{title_mytable}}</h3>
-
     <b-table striped hover :items="items"></b-table>
-      
   </div>
  
 </template>
@@ -14,7 +11,6 @@ export default {
   name:"MyTable",
   data() {
     return {
-      title_mytable:"Alumnos",
       items: [
           {age:23, first_name:"Carlos", last_name:"Navarro"},
           {age:21, first_name:"Larsen", last_name:"Shaw"},
